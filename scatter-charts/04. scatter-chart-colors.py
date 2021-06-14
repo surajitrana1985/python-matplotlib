@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jun 14 00:28:03 2021
+
+@author: surajitrana
+"""
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+def plot_scatter():
+    x = np.array([5, 7, 8, 7, 2, 17, 2, 9, 4, 11, 12, 9, 6])
+    y = np.array([99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86])
+    colors = np.array(["red", "green", "blue", "yellow", "pink", "black",
+                       "orange", "purple", "beige", "brown",
+                       "gray", "cyan", "magenta"])
+    plt.scatter(x, y, color=colors)
+    plt.show()
+
+
+if __name__ == '__main__':
+    plot_scatter()
