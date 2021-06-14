@@ -1,0 +1,11 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = empty-project-type
+recent_files = ['scatter-charts/01. scatter-chart-intro.py', 'scatter-charts/02. scatter-chart-compare.py', 'line-charts/09. line-chart-labels.py', 'line-charts/08. line-chart-multi-styles.py', 'line-charts/03. line-chart-default-x.py', 'line-charts/01. line-chart-simple.py', 'line-charts/07. line-chart-marker-colors.py', 'line-charts/06. line-chart-marker-format.py', 'line-charts/05. line-chart-marker.py', 'line-charts/02. line-chart-random.py', 'line-charts/04. line-chart-rings.py', 'line-charts/11. line-chart-subplots-dynamic.py', 'line-charts/10. line-chart-subplots-static.py', 'intro/00. matplotlib-intro.py', 'scatter-charts/03. scatter-chart-custom-color.py', 'scatter-charts/04. scatter-chart-colors.py', 'scatter-charts/05. scatter-chart-colormap.py', 'scatter-charts/06. scatter-chart-sizes.py', 'scatter-charts/07. scatter-chart-alpha.py', 'scatter-charts/08. scatter-chart-color-size-alpha.py']
+
+[main]
+version = 0.2.0
+
